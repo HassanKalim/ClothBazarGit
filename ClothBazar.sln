@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClothBazar.Web", "ClothBazar.Web\ClothBazar.Web.csproj", "{B448D4FD-DA67-4FE9-BE10-D16D0851C1BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClothBazar.Entities", "ClothBazar.Entities\ClothBazar.Entities.csproj", "{4529C6E6-94C3-4F58-BE4F-B988A02065EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClothBazar.Databases", "ClothBazar.Databases\ClothBazar.Databases.csproj", "{53043476-422C-4C8C-82AB-F5D8091024F1}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B448D4FD-DA67-4FE9-BE10-D16D0851C1BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B448D4FD-DA67-4FE9-BE10-D16D0851C1BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B448D4FD-DA67-4FE9-BE10-D16D0851C1BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B448D4FD-DA67-4FE9-BE10-D16D0851C1BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4529C6E6-94C3-4F58-BE4F-B988A02065EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4529C6E6-94C3-4F58-BE4F-B988A02065EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4529C6E6-94C3-4F58-BE4F-B988A02065EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4529C6E6-94C3-4F58-BE4F-B988A02065EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53043476-422C-4C8C-82AB-F5D8091024F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53043476-422C-4C8C-82AB-F5D8091024F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53043476-422C-4C8C-82AB-F5D8091024F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53043476-422C-4C8C-82AB-F5D8091024F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
